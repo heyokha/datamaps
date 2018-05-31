@@ -1,7 +1,9 @@
 .header { height: 60px;
 		background-color: #f5f5f5;
 		width: 100%;
-		box-shadow: 0 2px 2px 0 rgba(33, 33, 33, 0.5), 0 3px 4px 0 rgba(33, 33, 33, 0.19); }
+		box-shadow: 0 2px 2px 0 rgba(33, 33, 33, 0.5), 0 3px 4px 0 rgba(33, 33, 33, 0.19); 
+		text-decoration: none;
+		color: #424242;}
 
 hr {
 	width: 90%;
@@ -19,7 +21,11 @@ h1 {text-align: center;
 	left: 65px;
 	top: -12px;
 	}
-body {margin: 0;}
+body {
+	margin: 0;
+	font-family: 'Raleway', sans-serif;
+	font-weight: 300;
+	}
 
 .logo { height: 30px;
 		width: 30px;
@@ -35,11 +41,16 @@ body {margin: 0;}
 		z-index: -1; }
 ul {margin: 0;
 	position: relative;
-	right: 30px;}
-li.menu {font-family: 'Raleway', sans-serif;
-		font-weight: 300;
+	right: 30px;
+}
+
+li.menu, li.menu:visited, li.menu:link {
+		/*font-family: 'Raleway', sans-serif; */
+		/* font-weight: 300; */
 		font-size: 0.9em;
+		text-decoration: none;
 		line-height: 1.35;
+		color: #424242;
 		float: right;
 		display: inline-block;
 		padding-right: 20px;
@@ -94,5 +105,28 @@ a.goto:active, a.goto:visited, a.goto:link, a.goto {margin: auto;
 }
 a.goto:hover {border-color: #555555;}
 
-.space {height: 100px;}
+.icon:link, .icon:active, icon:visited, .icon {
+	padding: 0 20px;
+	filter: opacity(30%);
+	width: 50px;
+	text-decoration: none;
+}
+.icon:hover{
+	padding: 0 20px;
+	filter: opacity(60%);
+}
+.icons {text-align: center;
+margin: 100px 0 50px 0;
+text-decoration: none;
+}
+
+.footer {
+	text-align: center;
+	margin-top: 20px;
+}
+
+.footer-menu, .footer-menu:link, .footer-menu:active, .footer-menu:visited {
+	color: #424242;
+}
+
 /* yellow button ffb74d 950px media changes
