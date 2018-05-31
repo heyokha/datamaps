@@ -60,7 +60,22 @@ a {
 	text-decoration: none;
 	color: #424242;}
 .between {height: 115px;
-		border-bottom: 1px solid #e0e0e0;}
+		border-bottom: 1px solid #e0e0e0;
+		text-align: center;}
+.between2 {
+	text-align: center;
+	width: 90%;
+	margin: auto;
+}
+.svgs {
+	height: 35px;
+}
+.another {
+	padding: 0 10%;
+	float: left;
+	display: inline;
+	text-transform: uppercase;
+}
 
 .pics {
 	text-align: center;
@@ -133,6 +148,14 @@ text-decoration: none;
 	line-height: 1.8;
 	letter-spacing: 0.03rem;
 }
+.footer2 {
+	text-align: center;
+	margin-top: 10px;
+}
+.footer3 {
+	text-align: center;
+	padding: 5px 0 25px 0;
+}
 .years {
 	color: #424242;
 	font-size: 0.88em;
@@ -141,8 +164,12 @@ text-decoration: none;
 }
 .freepik {
 	color: #424242;
-	font-size: 0.68em;
+	font-size: 0.65em;
 	line-height: 1.8;
 	letter-spacing: 0.03rem;
+	font-style: italic;
+}
+.underlined {
+	text-decoration: underline;
 }
 /* yellow button ffb74d 950px media changes
