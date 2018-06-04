@@ -250,4 +250,7 @@ a.goto:hover {
 .underlined {
 	text-decoration: underline;
 }
+
+@media only screen and (max-width: 600px) {
+	
 /* yellow button ffb74d 950px media changes
