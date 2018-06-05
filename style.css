@@ -71,19 +71,24 @@ a {
 	display: inline-block;
 	text-align: center;
 	margin: auto;
-	width: 1100px;
+	width: 95%;
+	height: 40%;
 }
 
 .screenshot {
-	width: 40%;
 	display: inline-block;
-	margin-left: 30px;
-	padding-top: 99px;
-
+	margin-left: 1%;
+	padding-top: 4%;
+}
+.screen-img {
+	max-width: 500px;
+	width: 100%;
+	/* height: auto; */
+	height: 100%;
 }
 .left-violet {
 	position: relative;
-	width: 500px;
+	width: 40%;
 	display: inline-block;
 	left: -40px;
 	top: -90px;
@@ -251,6 +256,13 @@ a.goto:hover {
 	text-decoration: underline;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 1135px) {
+	.screenshot {
+		display: inline-block;
+		width: 45%;
+		/* margin-left: 3%; */
+		/* padding-top: 5%x; */
+	}
+}
 	
 /* yellow button ffb74d 950px media changes
